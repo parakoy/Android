@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_start"
+            android:checkable="true"
+            android:enabled="true"
+            android:icon="@android:drawable/ic_secure"
+            android:title="Başlangıç" />
+        <item
+            android:id="@+id/nav_manage"
+            android:checkable="true"
+            android:enabled="true"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ayarlar" />
+    </group>
+
+    <item android:title="Cüzdan">
+        <menu>
+            <item
+                android:id="@+id/nav_wallet"
+                android:checkable="true"
+                android:enabled="true"
+                android:icon="@drawable/ic_menu_wallet"
+                android:title="Adres" />
+            <item
+                android:id="@+id/nav_details"
+                android:checkable="true"
+                android:enabled="true"
+                android:icon="@drawable/ic_menu_list"
+                android:title="Bakiye Detay" />
+            <item
+                android:id="@+id/nav_history"
+                android:checkable="true"
+                android:enabled="true"
+                android:icon="@drawable/ic_menu_history"
+                android:title="Geçmiş İşlemler" />
+            <item
+                android:id="@+id/nav_send"
+                android:checkable="true"
+                android:enabled="true"
+                android:icon="@drawable/ic_menu_send2"
+                android:title="Gönder" />
+        </menu>
+    </item>
+
+</menu>

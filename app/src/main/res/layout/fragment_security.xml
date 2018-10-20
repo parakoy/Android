@@ -1,0 +1,73 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/SecurityHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Her zaman güvende olun"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Güvenliğiniz konusunda proaktif olmanız gerekli. "
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/buttonSecurity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DEVAM"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/article_subheading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Uygulama anahtarlarınızı cihaz üzerinde oluşturur ve şifreniz ile saklar, uygulama ve herhangi birisi anahtarlara şifreniz olmadan ulaşamaz. Kaynak kelimeleri ve şifrenizi başka biriyle paylaşmayın. Kaynak kelimeleriniz bu hesabı yeniden yüklemek için yeterli, cihaz üzerinde saklamayın ve her zaman güvenli bir yerde saklayın."
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/article_subheading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text=" Cihazınızı virüs ve zararlı programlardan uzak tutun. Herhangi bir kayıptan sorumlu değiliz:  Ethereum, Parakoy ve kullandığımız temel Javascript kitaplıklarının bazıları aktif geliştirme aşamasındadır. Bütünüyle test edilmiş ve on binlerce cüzdan dünyanın her yerinden insanlar tarafından başarıyla oluşturulmasına rağmen, fonlarınızın kaybolmasına neden olan beklenmedik bir şey olması ihtimali her zaman vardır. Yüksek tutar saklamak donanım bazlı cüzdanları tercih edin."
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="14sp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
+

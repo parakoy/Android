@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Ayarlar"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_security"
+        android:orderInCategory="100"
+        android:title="Güvenlik Uyarısı"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="Hakkında"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_release"
+        android:orderInCategory="100"
+        android:title="Sürüm notları"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        android:title="Yardım"
+        app:showAsAction="never" />
+
+    |
+</menu>
