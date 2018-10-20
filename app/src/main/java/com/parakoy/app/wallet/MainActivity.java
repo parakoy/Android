@@ -30,33 +30,13 @@ public class MainActivity extends AppCompatActivity
         }
 
         if (fragment2 != null) {
-
-
             int fragmentCount = fragmentManager.getBackStackEntryCount();
-
             FragmentTransaction ft = fragmentManager.beginTransaction();
             ft.hide(fragment);
                 ft.add(R.id.screen_area, fragment2);
-
                  ft.commit();
-           // ft.replace(R.id.screen_area, fragment).commit();
-//ft.commit();
-            // FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-            // ft.replace(R.id.screen_area, fragment);
-            //  ft.commit();
-
-
         }
-
-
-
-
     }
-
-
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
